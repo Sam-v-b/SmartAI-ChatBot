@@ -1,0 +1,18 @@
+# Virtual environment
+venv2/
+
+# Environment variables file
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE-specific folders
+.vscode/
+.idea/
+
+# Streamlit cache
+.streamlit/

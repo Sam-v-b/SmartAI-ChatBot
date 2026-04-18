@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartAI Databot</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #343a40;
+            display: flex;
+            min-height: 100vh; 
+        }
+
+        aside {
+            width: 20%;
+            background-color: #343a40;
+            color: #ffffff;
+            padding: 1em;
+            box-shadow: 2px 0px 5px 0px rgba(0, 0, 0, 0.1);
+            display: flex; /*  flexbox for sidebar layout */
+            flex-direction: column; /* Stack items vertically */
+            height: 100vh; /* Sidebar takes up full viewport height */
+        }
+
+
+        main {
+            flex: 1;
+            padding: 2em;
+        }
+
+        header {
+            background-color: #ffffff;
+            color: #343a40;
+            text-align: center; /* Center align text */
+            padding: 1em;
+            font-size: 2.5em;
+            box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 0em; /* margin-top for spacing */
+        }
+
+
+        h2 {
+            color: #343a40;
+        }
+
+        p {
+            color: #6c757d;
+            font-size: 1.1em;
+        }
+
+        .sidebar-link {
+            display: block;
+            margin: 1em 0;
+            padding: 1em;
+            text-align: left;
+            text-decoration: none;
+            color: #ffffff;
+            background-color: #007bff;
+            border: 2px solid #007bff;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            font-size: 1.2em;
+        }
+
+        .sidebar-link:hover {
+            background-color: #0056b3;
+        }
+
+        .content-container {
+            background-color: #ffffff;
+            box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            padding: 1em;
+            margin-top: 1em;
+        }
+
+        .feature-title {
+            color: #343a40;
+            font-size: 1.5em;
+        }
+
+        .feature-description {
+            color: #6c757d;
+        }
+    </style>
+</head>
+<body>
+
+    <aside>
+        <a href="http://localhost:8501/" class="sidebar-link" target="_blank">Chatbot for PDF Files</a>
+        <a href="http://localhost:8502/" class="sidebar-link" target="_blank">Chatbot for CSV Files</a>
+    </aside>
+
+    <main>
+        <header>
+            <img src="C:\Users\uma\Desktop\Picture2.jpg" alt="SmartAI Logo">
+
+               <b>SmartAI Databot</b>
+        </header>
+        <div id="chatbot-pdf" class="content-container">
+            <h2 class="feature-title">Chatbot for PDF Files</h2>
+            <p class="feature-description">Efficiently interact with PDF documents, ask questions, and receive answers through natural language processing.</p>
+        </div>
+
+        <div id="chatbot-csv" class="content-container">
+            <h2 class="feature-title">Chatbot for CSV Files</h2>
+            <p class="feature-description">Have intuitive conversations with structured CSV data, gaining insights without specialized knowledge or coding skills.</p>
+        </div>
+    </main>
+
+</body>
+</html>
+
