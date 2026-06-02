@@ -37,3 +37,6 @@ fpdf
 
 # YouTube transcripts
 youtube-transcript-api
+
+langchain-community
+langchain-text-splitters
