@@ -4,6 +4,7 @@ langchain-openai
 openai
 faiss-cpu
 pypdf
+PyPDF2
 python-dotenv
 tiktoken
 pandas
