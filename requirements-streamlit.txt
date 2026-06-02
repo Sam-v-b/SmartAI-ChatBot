@@ -41,3 +41,4 @@ youtube-transcript-api
 langchain-community
 langchain-text-splitters
 langchain-google-genai
+langchain-experimental
