@@ -9,3 +9,6 @@ tiktoken
 pandas
 tabulate
 requests
+beautifulsoup4
+fpdf
+youtube-transcript-api
