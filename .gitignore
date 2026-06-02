@@ -1,8 +1,10 @@
 # Virtual environment
 venv2/
+venv/
 
 # Environment variables file
 .env
+.env.example
 
 # Python cache
 __pycache__/
