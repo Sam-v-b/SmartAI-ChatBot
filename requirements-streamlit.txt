@@ -1,0 +1,14 @@
+streamlit
+langchain
+langchain-openai
+openai
+faiss-cpu
+pypdf
+python-dotenv
+tiktoken
+pandas
+tabulate
+requests
+beautifulsoup4
+fpdf
+youtube-transcript-api

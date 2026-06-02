@@ -187,7 +187,7 @@ def generate_chat_pdf(chat_history, file_name=None, summary_text=None):
     pdf.set_text_color(150, 150, 150)
     pdf.cell(0, 8, 'SmartAI ChatBot  |  Powered by Google Gemini & LangChain', align='C')
 
-    return bytes(pdf.output())
+    return pdf.output(dest='S').encode('latin-1')
 
 # Page configuration
 st.set_page_config(
