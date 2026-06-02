@@ -1,16 +1,39 @@
 streamlit
+
+# LangChain + LLM
 langchain
 langchain-openai
 openai
+
+# Vector DB / embeddings
 faiss-cpu
+
+# PDF handling
 pypdf
 PyPDF2
-python-dotenv
+
+# DOCX handling
+python-docx
+
+# OCR (image to text)
+pytesseract
+Pillow
+
+# NLP / utilities
 tiktoken
+python-dotenv
+
+# Data handling
 pandas
 tabulate
+numpy
+
+# Web / parsing
 requests
 beautifulsoup4
+
+# PDF generation
 fpdf
+
+# YouTube transcripts
 youtube-transcript-api
-python-docx
