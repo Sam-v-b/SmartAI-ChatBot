@@ -2,6 +2,8 @@
 venv2/
 venv/
 
+
+
 # Environment variables file
 .env
 .env.example
